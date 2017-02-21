@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">المعلومات الشخصية</string>
+    <string name="app_name2">معلومات الاتصال</string>
+    <string name="app_name3">مزيد من المعلومات</string>
+    <string name="label_nombre">أسماء</string>
+    <string name="hint_nombre">اسم</string>
+    <string name="hint_apellido">الألقاب</string>
+    <string name="label_sexo">جنس:</string>
+    <string name="label_sexo_hombre">رجل</string>
+    <string name="label_sexo_mujer">امرأة</string>
+    <string name="label_fecha">تاريخ الميلاد</string>
+    <string name="label_fecha2">تغيير</string>
+    <string name="title_activity_calendario">تقويم</string>
+    <string name="label_volver">استعرض</string>
+    <string name="label_escolaridad">مستوى التعليم</string>
+    <string name="label_boton_sigte">التالي</string>
+    <string name="hint_telefono">هاتف</string>
+    <string name="hint_correo">بريد</string>
+    <string name="hint_pais">بلد</string>
+    <string name="hint_ciudad">مدينة</string>
+    <string name="label_direccion">عنوان</string>
+    <string name="hint_direccion">أدخل عنوانك</string>
+
+    <string name="label_pasatiempos">الهوايات</string>
+    <string name="label_leer">قرأ</string>
+    <string name="label_ver_tv">مشاهدة التلفزيون</string>
+    <string name="label_bailar">رقص</string>
+    <string name="label_cantar">غنى</string>
+    <string name="label_nadar">سباحة</string>
+    <string name="label_boton_mostrar">عرض</string>}
+    <string name="label_datos_usuario">بيانات المستخدم</string>
+</resources>

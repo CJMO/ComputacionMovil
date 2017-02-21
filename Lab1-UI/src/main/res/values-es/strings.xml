@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Información personal</string>
+    <string name="app_name2">Información de contacto</string>
+    <string name="app_name3">Información complementaria</string>
+    <string name="label_nombre">Nombres</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellidos</string>
+    <string name="label_sexo">Sexo:</string>
+    <string name="label_sexo_hombre">Hombre</string>
+    <string name="label_sexo_mujer">Mujer</string>
+    <string name="label_fecha">Fecha de nacimiento</string>
+    <string name="label_fecha2">Cambiar</string>
+    <string name="title_activity_calendario">Calendario</string>
+    <string name="label_volver">Aceptar</string>
+    <string name="label_escolaridad">Grado de escolaridad</string>
+    <string name="label_boton_sigte">Siguiente</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_pais">País</string>
+    <string name="hint_ciudad">Ciudad</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="hint_direccion">Escribe tu dirección</string>
+
+    <string name="label_pasatiempos">Pasatiempos</string>
+    <string name="label_leer">Leer</string>
+    <string name="label_ver_tv">Ver TV</string>
+    <string name="label_bailar">Bailar</string>
+    <string name="label_cantar">Cantar</string>
+    <string name="label_nadar">Nadar</string>
+    <string name="label_boton_mostrar">Mostrar</string>}
+    <string name="label_datos_usuario">Datos del usuario</string>
+</resources>
