@@ -107,7 +107,7 @@ public class Fragment_perfil extends Fragment {
 
             Resources res = getResources();
             int resID = res.getIdentifier(foto , "drawable", contexto.getPackageName());
-            Toast.makeText(contexto, "foto " + resID +foto, Toast.LENGTH_LONG).show();
+            //Toast.makeText(contexto, "foto " + resID +foto, Toast.LENGTH_LONG).show();
             Drawable drawable = res.getDrawable(resID );
             avatar.setImageDrawable(drawable );
 
