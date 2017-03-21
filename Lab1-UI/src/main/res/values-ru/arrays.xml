@@ -1,8 +1,0 @@
-<resources>
-    <string-array name="elementosSpinner">
-        <item>первичная</item>
-        <item>вторичный</item>
-        <item>университет</item>
-        <item>другой</item>
-    </string-array>
-</resources>

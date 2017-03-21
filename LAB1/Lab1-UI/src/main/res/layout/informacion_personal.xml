@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="co.edu.udea.compumovil.gr10_20171.lab1.PersonalInfo">
+
+    <TextView
+        android:text="@string/label_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/usuario"
+            android:id="@+id/imageButton" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:ems="10"
+            android:id="@+id/editTextNombre"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:imeOptions="actionNext"
+            android:hint="@string/hint_nombre" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/usuario"
+            android:id="@+id/imageButton2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:ems="10"
+            android:id="@+id/editTextApellido"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:imeOptions="actionDone"
+            android:hint="@string/hint_apellido" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sexo"
+            android:id="@+id/imageButton5"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="@string/label_sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSexo"
+            android:layout_weight="1" />
+
+        <RadioGroup
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroupSexo"
+            android:layout_weight="0.95">
+
+            <RadioButton
+                android:text="@string/label_sexo_hombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonHombre"
+                android:layout_weight="1" />
+            <RadioButton
+                android:text="@string/label_sexo_mujer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonMujer"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fecha"
+            android:id="@+id/imageButton6" />
+
+        <TextView
+            android:text="@string/label_fecha"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewFecha" />
+
+        <Button
+            android:text="@string/label_fecha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/boton_fecha"
+            android:layout_weight="7.84" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/estudiante"
+            android:id="@+id/imageButtonEscolaridad" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerEscolaridad"
+            android:layout_weight="1"
+            android:prompt="@string/label_escolaridad"
+            android:entries="@array/elementosSpinner"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <Button
+            android:text="@string/label_boton_sigte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/boton_sigte" />
+    </LinearLayout>
+
+</LinearLayout>
