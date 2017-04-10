@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/preferencias_aplicacion">
+
+        <CheckBoxPreference
+            android:key="preferencia_notificaciones"
+            android:title="@string/preferencia_notificaciones"
+            android:summary="@string/preferencia_notificaciones_subtitulo" />
+        <CheckBoxPreference
+            android:key="preferencia_notificaciones_sonido"
+            android:title="@string/preferencia_notificaciones_sonido"
+            android:summary="@string/preferencia_notificaciones_sonido_subtitulo" />
+        <EditTextPreference
+            android:key="tiempo_actualizacion"
+            android:title="Tiempo de actualización"
+            android:defaultValue="60"
+            android:summary="Tiempo de espera entre actualizaciones"
+            android:dialogTitle="Ingresa el tiempo (en segundos)" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/preferencias_perfil">
+
+        <EditTextPreference
+            android:key="nombre_usuario"
+            android:title="@string/texto_nombre_usuario"
+            android:summary="@string/texto_nombre_usuario_subtitulo"
+            android:dialogTitle="@string/dialogo_nombre_usuario" />
+        <EditTextPreference
+            android:key="correo"
+            android:title="@string/texto_correo"
+            android:summary="@string/texto_correo_subtitulo"
+            android:dialogTitle="@string/dialogo_correo" />
+        <EditTextPreference
+            android:key="clave"
+            android:title="@string/texto_clave"
+            android:summary="@string/texto_clave_subtitulo"
+            android:dialogTitle="@string/dialogo_clave" />
+
+        <EditTextPreference
+            android:key="edad"
+            android:title="@string/texto_edad"
+            android:summary="@string/texto_edad_subtitulo"
+            android:dialogTitle="@string/dialogo_edad" />
+
+        <!--<ListPreference
+            android:key="list_preference"
+            android:title="@string/title_list_preference"
+            android:summary="@string/summary_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:dialogTitle="@string/dialog_title_list_preference" />-->
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

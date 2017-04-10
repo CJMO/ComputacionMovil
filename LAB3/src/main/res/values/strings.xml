@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Servicios</string>
+    <string name="boton_ingreso">Ingresar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Ingresar</string>
+    <string name="label_correo">Correo electrónico</string>
+    <string name="label_clave">Clave de ingreso</string>
+    <string name="label_crear_cuenta">No tienes cuenta? Crea una</string>
+    <string name="label_login">Ingresar</string>
+
+    <string-array name="lista_items_menu">
+        <item>Eventos</item>
+        <item>Perfil</item>
+        <item>Configuraciones</item>
+        <item>Cerrar sesión</item>
+        <item>Acerca de</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string name="actionSort">aa</string>
+    <string name="label_usuario">Nombre de usuario</string>
+    <string name="title_activity_menu_lateral">Eventos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="edades">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>Acerca de</item>
+    </string-array>
+    <string name="title_activity_maps">Ubicación del evento</string>
+
+    <string name="preferencia_notificaciones">Activar notificaciones</string>
+    <string name="preferencia_notificaciones_subtitulo">Visualizar notificaciones de la aplicación</string>
+    <string name="preferencia_notificaciones_sonido">Activar sonido en notificaciones</string>
+    <string name="preferencia_notificaciones_sonido_subtitulo">Reproducir sonido con notificaciones de la aplicación</string>
+    <string name="preferencias_aplicacion">Preferencias de la aplicación</string>
+    <string name="preferencias_perfil">Configuraciones de perfil de usuario</string>
+
+    <string name="texto_nombre_usuario">Editar nombre de usuario</string>
+    <string name="texto_nombre_usuario_subtitulo">Actualiza tu nombre de usuario</string>
+    <string name="dialogo_nombre_usuario">Ingresa tu nombre de usuario</string>
+
+    <string name="texto_correo">Editar correo electrónico</string>
+    <string name="texto_correo_subtitulo">Actualiza tu dirección de correo</string>
+    <string name="dialogo_correo">Ingresa tu nuevo correo</string>
+
+    <string name="texto_clave">Editar clave de ingreso</string>
+    <string name="texto_clave_subtitulo">Actualiza tu clave de acceso</string>
+    <string name="dialogo_clave">Ingresa tu nueva clave</string>
+
+    <string name="texto_edad">Editar edad</string>
+    <string name="texto_edad_subtitulo">Actualiza tu edad</string>
+    <string name="dialogo_edad">Ingresa tu edad (en años)</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="google_maps_key">AIzaSyD9ll16SCif70kFB8jfa6KRq4A4XApD_Ac</string>
+
+</resources>

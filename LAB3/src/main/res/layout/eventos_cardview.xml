@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp" >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp">
+
+            <android.support.percent.PercentRelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_nombre"
+                    android:layout_alignParentTop="true"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_descripcion_label"
+                    android:layout_below="@+id/evento_nombre"
+                    android:text="Descripción del evento"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_descripcion"
+                    android:layout_below="@+id/evento_descripcion_label"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_puntuacion_label"
+                    android:layout_below="@+id/evento_descripcion"
+                    android:text="Puntuación de usuarios: "
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_encargado_label"
+                    android:layout_below="@+id/evento_puntuacion_label"
+                    android:text="Organizador"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_encargado"
+                    android:layout_below="@+id/evento_encargado_label"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_ubicacion_label"
+                    android:layout_below="@+id/evento_encargado"
+                    android:text="Ubicación"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_ubicacion"
+                    android:layout_below="@+id/evento_ubicacion_label"
+                    />
+
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_ecargado_label"
+                    android:layout_below="@+id/evento_puntuacion"
+                    android:text="Encargado del evento"
+                    android:textColor="@color/black"
+                    />-->
+
+
+                <ImageView
+                    app:layout_widthPercent="95%"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_foto"
+                    android:layout_below="@+id/evento_ubicacion"
+                    />
+
+                <Button
+                    android:text="Ver ubicación en mapa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/evento_mapa_boton"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/evento_foto"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp" />
+
+            </android.support.percent.PercentRelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context="co.edu.udea.compumovil.gr10_20171.lab3.Fragment_info">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_weight="4"
+        android:layout_centerHorizontal="true"
+        android:text="Curso Computación Móvil"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:text="Código: 2508767\n\nObjetivo general:\n
+Adquirir conocimientos en el desarrollo de\naplicaciones para dispositivos móviles\n\n
+Horarios de clase:\n
+- Grupo-1 Miércoles y Viernes 14-16\n
+- Grupo-2 Martes y Jueves 16-18\n
+Aula: LIS\n\n
+Docentes: Sebastián Guzmán Obando \n y Jaiber Yepes"
+        android:id="@+id/textViewInfo" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_eventos"
+            android:icon="@drawable/evento_6"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/menu_eventos_actualizar"
+            android:icon="@drawable/sincronizar"
+            android:title="Actualizar lista de eventos" />
+        <item
+            android:id="@+id/menu_perfil"
+            android:icon="@drawable/perfil_4"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/menu_config"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuraciones" />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/salir"
+            android:title="Cerrar sesión" />
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/acerca_1"
+            android:title="Acerca del curso" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
