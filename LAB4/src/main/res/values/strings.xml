@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">FCM</string>
+    <string name="boton_ingreso">Ingresar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Ingresar</string>
+    <string name="label_correo">Correo electrónico</string>
+    <string name="label_clave">Clave de ingreso</string>
+    <string name="label_crear_cuenta">No tienes cuenta? Crea una</string>
+    <string name="label_login">Ingresar</string>
+
+    <string-array name="lista_items_menu">
+        <item>Eventos</item>
+        <item>Perfil</item>
+        <item>Configuraciones</item>
+        <item>Cerrar sesión</item>
+        <item>Acerca de</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string name="actionSort">aa</string>
+    <string name="label_usuario">Nombre de usuario</string>
+    <string name="title_activity_menu_lateral">Eventos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="edades">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>Acerca de</item>
+    </string-array>
+    <string name="title_activity_maps">Ubicación del evento</string>
+
+    <string name="preferencia_notificaciones">Activar notificaciones</string>
+    <string name="preferencia_notificaciones_subtitulo">Visualizar notificaciones de la aplicación</string>
+    <string name="preferencia_notificaciones_sonido">Activar sonido en notificaciones</string>
+    <string name="preferencia_notificaciones_sonido_subtitulo">Reproducir sonido con notificaciones de la aplicación</string>
+    <string name="preferencias_aplicacion">Preferencias de la aplicación</string>
+    <string name="preferencias_perfil">Configuraciones de perfil de usuario</string>
+
+    <string name="texto_nombre_usuario">Editar nombre de usuario</string>
+    <string name="texto_nombre_usuario_subtitulo">Actualiza tu nombre de usuario</string>
+    <string name="dialogo_nombre_usuario">Ingresa tu nombre de usuario</string>
+
+    <string name="texto_correo">Editar correo electrónico</string>
+    <string name="texto_correo_subtitulo">Actualiza tu dirección de correo</string>
+    <string name="dialogo_correo">Ingresa tu nuevo correo</string>
+
+    <string name="texto_clave">Editar clave de ingreso</string>
+    <string name="texto_clave_subtitulo">Actualiza tu clave de acceso</string>
+    <string name="dialogo_clave">Ingresa tu nueva clave</string>
+
+    <string name="texto_edad">Editar edad</string>
+    <string name="texto_edad_subtitulo">Actualiza tu edad</string>
+    <string name="dialogo_edad">Ingresa tu edad (en años)</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="google_maps_key">AIzaSyD9ll16SCif70kFB8jfa6KRq4A4XApD_Ac</string>
+
+    <string name="title_activity_firebase">Autenticación Firebase</string>
+
+    <string name="datos_incompletos">Por favor ingresa el correo y la clave de acceso</string>
+    <string name="correo_formato_incorrecto">El correo electrónico no tiene un formato reconocido</string>
+    <string name="datos_incorrectos">Los datos de ingreso son incorrectos</string>
+
+
+    <string name="auth_failed">Autenticación fallida</string>
+
+    <string name="label_google_sign_in">Ingresar con cuenta Google</string>
+    <string name="desc_google_sign_in">Utilice una credencial de inicio de sesión de Google para autenticarse con Firebase.</string>
+
+    <string name="label_facebook_login">Ingresar con cuenta Facebook</string>
+    <string name="desc_facebook_login">Utilice una credencial de inicio de sesión de Facebook para autenticarse con Firebase.</string>
+
+    <string name="label_twitter_login">Ingresar con cuenta Twitter</string>
+    <string name="desc_twitter_login">Utilice una credencial de inicio de sesión de Twitter para autenticarse con Firebase.</string>
+
+    <string name="label_emailpassword">Autenticación con Correo/Clave</string>
+    <string name="desc_emailpassword">Utilice un correo electrónico y una contraseña para autenticarse con Firebase.</string>
+
+    <string name="label_anonymous_auth">Autenticación anónima</string>
+    <string name="desc_anonymous_auth">Iniciar sesión de forma anónima y luego actualizar a un usuario de Firebase Auth completo.</string>
+
+    <string name="label_custom_auth">Autenticación personalizada</string>
+    <string name="desc_custom_auth">Utilice un token personalizado firmado por su propio servidor para autenticarse con Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Utilice la biblioteca Android FirebaseUI para autenticarse con Firebase.</string>
+
+    <string name="hint_user_id">ID de usuario</string>
+    <string name="get_custom_token">Obtener Token</string>
+    <string name="sign_in">Ingresar</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="verify_email">Verificar Correo</string>
+    <string name="disconnect">Desconectarse</string>
+    <string name="loading">Cargando…</string>
+    <string name="custom_token">Token Personalizado</string>
+    <string name="signed_out">Cerró sesión</string>
+    <string name="token_null">Token: nulo</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Clave</string>
+    <string name="desc_firebase_lockup">Logotipo y nombre de Firebase</string>
+
+    <string name="firebase_status_fmt">Usuario de Firebase: %s</string>
+    <string name="firebase_user_management">Gestión de usuarios de Firebase</string>
+
+    <string name="google_status_fmt">Usuario de Google: %s</string>
+    <string name="google_title_text">Iniciar sesión con Google</string>
+
+    <string name="facebook_status_fmt">Usuario de Facebook: %s</string>
+    <string name="facebook_title_text">Iniciar sesión con Facebook</string>
+
+    <string name="emailpassword_status_fmt">Correo de usuario: %1$s (verificado: %2$b)</string>
+    <string name="emailpassword_title_text">Datos de usuario actual</string>
+
+    <string name="twitter_status_fmt">Usuario de Twitter: %s</string>
+    <string name="twitter_title_text">Iniciar sesión con Twitter</string>
+
+    <string name="firebaseui_status_fmt">Usuario Firebase: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">ID de usuario: %s</string>
+    <string name="email_fmt">Correo: %s</string>
+
+</resources>

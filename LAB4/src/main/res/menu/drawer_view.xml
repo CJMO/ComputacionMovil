@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_drawer"
+            android:checked="true"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/ic_drawer"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/ic_drawer"
+            android:title="Configuraciones" />
+
+        <item
+            android:id="@+id/nav_fragment_logout"
+            android:icon="@drawable/ic_drawer"
+            android:title="Cerrar sesión" />
+
+    </group>
+</menu>
