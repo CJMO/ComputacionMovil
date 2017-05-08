@@ -282,7 +282,7 @@ public class Fragment_eventos extends Fragment{
                                     descripcion_evento.setText(evento.getInformacion());
                                     puntuacion_evento.setText(puntuacion_evento.getText() + evento.getPuntuacion());
                                     ubicacion_evento.setText(evento.getUbicacion());
-                                    encargado_evento.setText(evento.getFecha());
+                                    encargado_evento.setText(evento.getEncargado());
                                     fecha_evento.setText(evento.getFecha());
                                     System.out.println("Evento " + evento.getNombre());
 
@@ -470,7 +470,7 @@ public class Fragment_eventos extends Fragment{
                         // añadir evento a la lista
                         eventos.add(evento);
 
-                        showNotification("Nuevo evento creado!",evento.getNombre());
+                        //showNotification("Nuevo evento creado!",evento.getNombre());
                     }
 
                     AdaptadorRV adapter = new AdaptadorRV(eventos, getFragmentManager());
